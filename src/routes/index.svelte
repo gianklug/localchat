@@ -1,2 +1,12 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<Header></Header>
+<Chat></Chat>
+<style>
+
+</style>
+<script lang="ts">
+  import Header from './Header.svelte';
+  import Chat from './Chat.svelte';
+
+
+
+</script>
