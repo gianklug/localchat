@@ -1,5 +1,4 @@
 <script lang="ts">
-	import Header from './Header.svelte';
 	import { username, range } from '../stores.js';
 	import { SvelteToast, toast } from '@zerodevx/svelte-toast';
 
@@ -29,7 +28,6 @@
 	}
 </script>
 
-<Header />
 <SvelteToast />
 
 <div class="settings-form">

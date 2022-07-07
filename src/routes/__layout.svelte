@@ -9,7 +9,12 @@
 	{/if}
 </div>
 
-<style>
+<slot />
+
+<style lang="scss">
+	:global {
+    	@import '../global.scss';
+	}
 	.header {
 		position: sticky;
 		top: 0;
@@ -31,4 +36,5 @@
 		float: right;
 		align-self: center;
 	}
+
 </style>
